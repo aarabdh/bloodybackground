@@ -13,7 +13,7 @@ function draw() {
     rectMode(CENTER);
     background(0);
     for (let i=0; i<200; i++) {
-        extraCanvas.fill(255, 200, 250, 4);
+        extraCanvas.fill(255, 0, 0, 4);
         extraCanvas.noStroke();
         extraCanvas.ellipse(random(windowWidth), random(windowHeight), 60, 60);
         extraCanvas.fill(0, 4);
