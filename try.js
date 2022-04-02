@@ -31,7 +31,7 @@ function draw() {
     fill(255);
 	image(l2, 0,0);
     textAlign(CENTER);
-    textSize(40)
+    textSize(15);
     text(result[k], 10, windowHeight/3, windowWidth-15, windowHeight);
     fill(255);
     textAlign(LEFT);
